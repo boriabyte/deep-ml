@@ -13,8 +13,6 @@ def transpose_matrix(a: list[list[int|float]]) -> list[list[int|float]]:
     no_rows = len(a)
     no_cols = len(a[0])
 
-    a = np.array(a)
-
     res = []
     col = []
 
